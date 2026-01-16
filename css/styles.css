@@ -28,7 +28,7 @@ body {
 ========================= */
 
 .header {
- background-color: #b3b0b0;
+ background-color: #ffffff;
   border-bottom: 1px solid #E5E7EB;
   position: relative;
   top: 0;
@@ -208,7 +208,7 @@ body {
 ========================= */
 .lab-hero {
   background-color: #F9FAFB;
-  padding: 90px 0;
+ padding-top: 40px;
   text-align: center;
 }
 
@@ -259,6 +259,7 @@ body {
 }
 
 .secondary-btn {
+  width: 200px;
   background-color: #007bff;
   border: 1px solid #f4f4f4;
   color: #f0f0f0;
@@ -266,6 +267,7 @@ body {
   font-size: 14px;
   border-radius: 8px;
   margin-right: 20px;
+  font-size: large;
   text-decoration: none;
   cursor: pointer;
   transition: all 0.2s ease;
