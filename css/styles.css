@@ -206,6 +206,38 @@ body {
 /* =========================
    LAB HERO SECTION
 ========================= */
+/* =========================
+   WEEK → DAY NAVIGATION
+========================= */
+
+.week-day-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 20px;
+  flex-wrap: wrap; /* mobile friendly */
+}
+
+.nav-btn-primary {
+  background-color: #0d6efd;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav-btn-primary:hover {
+  background-color: #0b5ed7;
+}
+
+.nav-arrow {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000000;
+}
+
 .lab-hero {
   background-color: #F9FAFB;
  padding-top: 40px;
@@ -273,8 +305,24 @@ body {
   transition: all 0.2s ease;
 }
 
-.secondary-btn:hover {
-  background-color: #3ff566;
+.secondary-btn-2{
+  width: 300px;
+  background-color: #007bff;
+  border: 1px solid #f4f4f4;
+  color: #f0f0f0;
+  padding: 10px 22px;
+  font-size: 14px;
+  border-radius: 8px;
+  margin-right: 20px;
+  font-size: large;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+
+.secondary-btn:hover , .secondary-btn-2:hover {
+  background-color: #41ff6a;
   color: #FFFFFF;
 }
 @media (max-width: 768px) {
