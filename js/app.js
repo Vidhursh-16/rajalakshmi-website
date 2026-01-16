@@ -23,3 +23,13 @@ function renderWeek1() {
     </div>
   `;
 }
+
+
+function openSignIn() {
+  document.getElementById("signinModal").style.display = "flex";
+}
+
+function closeSignIn() {
+  document.getElementById("signinModal").style.display = "none";
+}
+

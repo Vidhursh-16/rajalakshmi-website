@@ -18,8 +18,24 @@
 </head>
 
 <body>
+  <!-- SIGN IN MODAL -->
+<div id="signinModal" class="modal-overlay">
+  <div class="modal-box">
 
- 
+    <h3>Student Sign In</h3>
+    <p class="modal-desc">Demo login for WTMA portal</p>
+
+    <input type="email" placeholder="College Email">
+    <input type="password" placeholder="Password"> 
+
+    <button class="primary-btn modal-btn">Sign In</button>
+
+    <p class="modal-note">*Dont Share Your OTP*</p>
+
+    <span class="modal-close" onclick="closeSignIn()">×</span>
+  </div>
+</div>
+
   <!-- HEADER / NAVBAR -->
 <header class="header">
   <div class="container header-content">
@@ -33,7 +49,7 @@
       <a href="#" class="nav-link">Home</a>
       <a href="#" class="nav-link">Lab Program</a>
       <a href="#" class="nav-link">Details</a>
-      <a href="#" class="nav-link">Sign In</a>
+      <button class="signin-btn" onclick="openSignIn()">Sign In</button>
       <button class="theme-toggle">🌙</button>
     </nav>
 
@@ -75,6 +91,15 @@
 
       <a href="week1.html" class="secondary-btn">
         Week 1
+      </a>
+      <a href="week1.html" class="secondary-btn">
+        Week 2
+      </a>
+      <a href="week1.html" class="secondary-btn">
+        Week 3
+      </a>
+      <a href="week1.html" class="secondary-btn">
+        Week 4
       </a>
     </div>
 
